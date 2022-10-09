@@ -1,6 +1,0 @@
-<txt>
-    <title>Test title</title>
-    <body>
-
-    </body>
-</txt>
