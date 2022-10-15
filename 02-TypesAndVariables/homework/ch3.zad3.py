@@ -1,6 +1,5 @@
 try:
-    a = input("Podaj wartość pomiędzy 0.0 a 1.0:")
-    a = float(a)
+    a = float(input("Podaj wartość pomiędzy 0.0 a 1.0:"))
     if a > 0 and a <= 1:
         if a < 0.6:
             print("F")
@@ -12,7 +11,7 @@ try:
             print("B")
         elif a >= 0.9:
             print("A")
-    elif a < 0.0 or a > 1.0:
-          print("Niepoprawna wartość")
+    else:
+        print("Niepoprawna wartość")
 except:
     print("Podaj wartość float:")
