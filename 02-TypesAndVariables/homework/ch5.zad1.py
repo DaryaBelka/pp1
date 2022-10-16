@@ -1,10 +1,11 @@
-lista = []
-x = None
-while x != "gotowe":
+x, y, z = 0, 0, 0
+while x != 'gotowe':
     try:
-        x = int(input("Podaj liczbe albo napisz 'gotowe':"))
-        continue
+        x = int(input('Podaj liczbe albo napisz 'gotowe':'))
+        y = y + x
+        z += 1
     except ValueError:
-        print("Niepoprawna wartość")
-        break
-print(f'')
+        if x == 'gotowe':
+            print(y, z, y/z)
+        else:
+            print('Niepoprawna wartość')
