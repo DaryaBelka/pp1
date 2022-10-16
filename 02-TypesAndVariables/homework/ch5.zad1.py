@@ -10,4 +10,4 @@ while x != "gotowe":
 x = sum(lista)
 y = len(lista)
 srednia = round((x/y), 2)
-print(f'Suma: {x}', wprowadzono {y} liczb, srednia to {srednia}')
+print(f'Suma: {x}', 'wprowadzono {y} liczb, srednia to {srednia}' )
