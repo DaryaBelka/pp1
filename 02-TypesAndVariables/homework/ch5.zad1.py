@@ -1,13 +1,14 @@
 x = 0
 y = 0
 z = 0
-while x != "gotowe":
+while y != "done":
     try:
-        x = input("Podaj liczbe albo napisz 'gotowe':")
-        y = y + int(x)
+        y = input("podaj liczbe")
+        x = x + int(y)
         z += 1
     except ValueError:
-        if x == "gotowe":
-            print(y, z, y/z)
+        if y == "done":
+            print(x, z, x/z)
         else:
-            print("Niepoprawna wartość")
+            print("to nie jest liczba")
+            continue
