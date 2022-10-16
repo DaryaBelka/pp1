@@ -7,7 +7,4 @@ while x != "gotowe":
     except ValueError:
         print("Niepoprawna wartość")
         break
-x = sum(lista)
-y = len(lista)
-srednia = round((x/y), 2)
-print(f'Suma: {x}', 'wprowadzono {y} liczb, srednia to {srednia}' )
+print(f'')
