@@ -1,4 +1,7 @@
-array = [1,2,3,4]
-for i in range(len(array)):
-   i+=2
-print(i)
+array = [1.0, 30.5, 45.3, 5.2, 7.0, 56.0]
+value = float(input("Enter the value: "))
+a = 0
+for i in array:
+    if value < i:
+        a += 1
+print(a)
