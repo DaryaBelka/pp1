@@ -3,10 +3,8 @@ result = []
 for i in range(len(array)): 
    for j in range(len(array)):
       if i != j and array[i] == array[j]:
-         print(array[i])
-      else:
-         pass
-print(result)
-
-   
+         array[j], array[i] = 0, 0
+for i in array:
+   if i != 0:
+      print(i, end = ' ')
    
