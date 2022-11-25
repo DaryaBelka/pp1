@@ -1,0 +1,8 @@
+file=open('.\\07-FileHandling\\MeatAndFish.txt','r')
+file1=open('.\\07-FileHandling\\GrainsAndBread.txt','r')
+file.close()
+file1.close()
+file2=open('.\\07-FileHandling\\shoppinglist.txt','w', encoding='UTF-8')
+file2.write(f'{file},{file1}')
+file2.write('\n')
+file2.close()
