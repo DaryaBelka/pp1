@@ -1,4 +1,12 @@
 file = open('.\\07-FileHandling\\zad15.txt','r') 
-print(file.readlines()[0])
-
+a=int((len(file.readlines()))//5+1)
+file.close()
+file = open('.\\07-FileHandling\\zad15.txt','r') 
+for i in range(a):
+    print(file.readline(), end = '')
+    print(file.readline(), end = '')
+    print(file.readline(), end = '')
+    print(file.readline(), end = '')
+    print(file.readline(), end = '')
+    a=input()
 file.close()
