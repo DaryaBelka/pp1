@@ -10,7 +10,7 @@ def f(player1, player2):
       if i == "A" or i == 'K' or i == 'Q' or i == 'J' or i == 'T':
          sum2 += 10
       else:
-         sum1 += int(i) 
+         sum2 += int(i) 
    if sum1<=sum2:
       return False
    return True
