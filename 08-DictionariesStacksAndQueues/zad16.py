@@ -1,12 +1,12 @@
 import json
-with open("\\.08-DictionariesStacksAndQueues\\students.json", "r") as file:
+with open("students.json", "r") as file:
    students = json.load(file)
 
-with open("limited.json", "w"):
+with open("limited.json", "w") as j:
    for i in students:
-      j.write(i[name])
-      j.wtite(" ")
-      j.write(i[surname])
-      j.wtite(" ")
-      j.write((i[ID]))
-      j.wtite(" ")
+      j.write(i["name"])
+      j.write(" ")
+      j.write(i["surname"])
+      j.write(" ")
+      j.write((str(i["student ID"])))
+      j.write("\n")
