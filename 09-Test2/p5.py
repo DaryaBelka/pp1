@@ -1,6 +1,6 @@
 def f(first_letter,last_letter):
    licznik = 0
-   with open("test1.txt", "r") as file:
+   with open("test.txt", "r") as file:
       for line in file:
          words_in_line = line.split()
          for word in words_in_line:
@@ -8,4 +8,3 @@ def f(first_letter,last_letter):
                licznik += 1
    return licznik
 print(f("w","d"))
-print(f("u","d"))
