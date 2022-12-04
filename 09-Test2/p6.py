@@ -5,7 +5,8 @@ def f(age, course, average):
       for line in file:
          students_line = line.split()
          for student in students_line:
-            if age in student and course in student and average in student:
+            
+  
                licznik += 1
       return licznik
 print(f(21, "statistics", 4))
