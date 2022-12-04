@@ -1,6 +1,5 @@
 def f(first_letter,last_letter):
-  
-   with open("test.txt", "r") as file:
+   with open("test.txt", "r", encoding="UTF-8") as file:
       licznik = 0
       for line in file:
          words_in_line = line.split()
