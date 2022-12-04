@@ -4,7 +4,7 @@ def f(age, course, average):
       data = json.load(file)
       count = 0 
       for student in data:
-         if student['age'] >= age:
+         if student["age"] >= age:
             if "studies" in student:
                for student_course in student["studies"]["courses"]:
                   if student_course["name"] == course:
