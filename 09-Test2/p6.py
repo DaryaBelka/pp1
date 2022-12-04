@@ -11,7 +11,6 @@ def f(age, course, average):
                      grade_sum = sum(student_course["grades"])
                      grade_count = len(student_course["grades"])
                      grade_average = grade_sum/grade_count
-
                      if grade_average >= average:
                         count += 1 
       return count
