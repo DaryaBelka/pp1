@@ -7,4 +7,4 @@ def f(gender):
          if i[3] == gender:
             count += 1
    return count
-print(f("Male"))
+print(f("Female"))
