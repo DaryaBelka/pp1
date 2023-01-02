@@ -8,3 +8,4 @@ def f(first_letter,last_letter):
                licznik += 1
       return licznik
 print(f("w","d"))
+
