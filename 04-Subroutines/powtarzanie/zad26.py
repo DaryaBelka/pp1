@@ -4,4 +4,4 @@ def num(n):
    return False
 
 print(num(8))
-print(num(2))
+print(num(9))
