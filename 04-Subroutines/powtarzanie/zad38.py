@@ -4,4 +4,3 @@ def f(palindrome):
       return True
    return False
 
-print(f("12-11-22"))

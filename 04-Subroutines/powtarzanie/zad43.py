@@ -5,4 +5,3 @@ def f(name):
       b += i[0]
    return b
 
-print(f("Python"))
