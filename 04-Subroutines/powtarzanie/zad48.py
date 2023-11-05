@@ -6,6 +6,3 @@ def f(product_code):
    if sum%7 == int(product_code[-1]):
       return True
    return False
-
-
-print(f("7071"))
