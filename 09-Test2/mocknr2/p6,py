@@ -1,0 +1,11 @@
+import csv
+def f6(g):
+   count = 0
+   with open("data.csv", "r", encoding="UTF-8") as file:
+      a = csv.reader(file)
+      for i in a:
+         if i[2] == g:
+            count += 1
+   return count
+
+print(f6("Male"))
